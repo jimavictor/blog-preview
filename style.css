@@ -22,7 +22,7 @@ body {
   margin-top: 20px;
   background-color: #f4d04e;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 .date {
   margin-top: 20px;
@@ -37,6 +37,8 @@ body {
 }
 .main-text {
   margin-top: 20px;
+  color: hsl(0, 0%, 42%);
+  max-width: 336px;
 }
 .image {
   width: 100%;
@@ -44,10 +46,11 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 384px;
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
 }
 .avatar-container {
   display: flex;
